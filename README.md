@@ -41,19 +41,19 @@ AnimateApp là ứng dụng theo dõi mục tiêu học tập của người dù
 
 Hiển thị mục tiêu học tập và tiến độ 0%.
 
-![Giao diện ban đầu](assets/giaodien1.png)
+![Giao diện ban đầu](giaodien1.png)
 
 ### 6.2. Giao diện khi bắt đầu học
 
 Khi nhấn nút Bắt đầu học, tiến độ được cập nhật lên 50%.
 
-![Bắt đầu học](assets/giaodien2.png)
+![Bắt đầu học](giaodien2.png)
 
 ### 6.3. Giao diện khi hoàn thành
 
 Khi nhấn nút Hoàn thành, tiến độ đạt 100% và thông báo chúc mừng xuất hiện với hiệu ứng động.
 
-![Hoàn thành](assets/giaodien3.png)
+![Hoàn thành](giaodien3.png)
 
 ## 7. Link ứng dụng Expo Snack
 
@@ -70,3 +70,5 @@ https://github.com/httung9506-svg/AnimateApp
 Ứng dụng sử dụng các Component ProgressCard, ActionButton và AnimatedMessage. Các chức năng bắt đầu học, cập nhật tiến độ, hoàn thành mục tiêu và hiển thị thông báo động đã được thực hiện.
 
 Qua bài tập này, em đã hiểu cách tạo Component, sử dụng React Hooks và áp dụng Animated API trong React Native.
+
+**Bài tập 5 đã hoàn thành.**
