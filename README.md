@@ -25,7 +25,7 @@ AnimateApp là ứng dụng theo dõi mục tiêu học tập của người dù
 - Bắt đầu học tập bằng nút Bắt đầu học.
 - Cập nhật tiến độ từ 0% lên 50%.
 - Hoàn thành mục tiêu với tiến độ 100%.
-- Hiển thị thông báo chúc mừng.
+- Hiển thị thông báo chúc mừng khi hoàn thành.
 - Sử dụng hiệu ứng động khi thông báo xuất hiện.
 
 ## 5. Công nghệ sử dụng
@@ -35,15 +35,29 @@ AnimateApp là ứng dụng theo dõi mục tiêu học tập của người dù
 - React Hooks: useState, useEffect, useRef
 - Animated API
 
-## 6. Link ứng dụng Expo Snack
+## 6. Hình ảnh giao diện ứng dụng
+
+### 6.1. Giao diện ban đầu
+
+Hiển thị mục tiêu học tập và tiến độ 0%.
+
+![Giao diện ban đầu](assets/giaodien1.png)
+
+### 6.2. Giao diện khi bắt đầu học
+
+Khi nhấn nút Bắt đầu học, tiến độ được cập nhật lên 50%.
+
+![Bắt đầu học](assets/giaodien2.png)
+
+### 6.3. Giao diện khi hoàn thành
+
+Khi nhấn nút Hoàn thành, tiến độ đạt 100% và thông báo chúc mừng xuất hiện với hiệu ứng động.
+
+![Hoàn thành](assets/giaodien3.png)
+
+## 7. Link ứng dụng Expo Snack
 
 https://snack.expo.dev/@tung9506/animateapp
-
-## 7. Hình ảnh giao diện
-
-- Giao diện chính: Hiển thị mục tiêu học tập và tiến độ.
-- Khi bắt đầu học: Tiến độ được cập nhật.
-- Khi hoàn thành: Hiển thị thông báo chúc mừng có hiệu ứng động.
 
 ## 8. Link GitHub
 
@@ -51,4 +65,8 @@ https://github.com/httung9506-svg/AnimateApp
 
 ## 9. Kết luận
 
-Ứng dụng AnimateApp đã xây dựng các Component ProgressCard, ActionButton và AnimatedMessage, đáp ứng các chức năng theo dõi mục tiêu học tập và sử dụng hiệu ứng động trong React Native.
+Ứng dụng AnimateApp đã xây dựng được giao diện theo dõi mục tiêu học tập bằng React Native.
+
+Ứng dụng sử dụng các Component ProgressCard, ActionButton và AnimatedMessage. Các chức năng bắt đầu học, cập nhật tiến độ, hoàn thành mục tiêu và hiển thị thông báo động đã được thực hiện.
+
+Qua bài tập này, em đã hiểu cách tạo Component, sử dụng React Hooks và áp dụng Animated API trong React Native.
